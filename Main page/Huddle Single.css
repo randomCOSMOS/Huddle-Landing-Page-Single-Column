@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    background-color: white;
+}
+
+.logo{
+    margin: 20px;
+    width: 200px;
+    height: 30px;
+}
+
+h1{
+    padding-top: 100px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+
+.para{
+    max-width: 545px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: hsl(208, 11%, 55%);
+    margin-bottom: 30px;
+}
+
+#con{
+    display: flex;
+    justify-content: center;
+}
+
+.screen{
+    width: 700px;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+input[type="email"]{
+    border: 2px solid rgba(0,0,0,0.10);
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 300px;
+}
+
+input[type="submit"]{
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 12px 50px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: hsl(192, 100%, 9%);
+    height: auto; 
+}
+
+.cimmunication{
+    padding-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.cimmunication img{
+    padding-left: 30px;
+    width: 200px;
+    height: 35px;
+}
+
+.about{
+    padding-top: 15px;
+}
+
+.about li{
+    font-family: 'Open Sans', sans-serif;
+    display: inline;
+    color: white;
+    opacity: 0.75;
+    margin-right: 30px;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.social img{
+    width: 20px;
+    height: 20px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.social img:first-of-type{
+    padding-left: 0;
+}
+
+.social{
+    padding-left: 30px;
+    padding-bottom: 30px;
+    top: 5px;
+    position: relative;
+}
+
+.copy{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-size: 10px;
+    padding-right: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a,
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
