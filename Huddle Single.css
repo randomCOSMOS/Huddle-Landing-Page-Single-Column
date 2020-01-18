@@ -1,26 +1,26 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-.body{
+.body {
     background-color: white;
 }
 
-.logo{
+.logo {
     margin: 20px;
     width: 200px;
     height: 30px;
 }
 
-h1{
+h1 {
     padding-top: 100px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-weight: 700;
 }
 
-.para{
+.para {
     max-width: 545px;
     margin: 0 auto;
     font-weight: 400;
@@ -30,29 +30,29 @@ h1{
     margin-bottom: 30px;
 }
 
-#con{
+#con {
     display: flex;
     justify-content: center;
 }
 
-.screen{
-    width: 700px;
+.screen {
+    width: 70%;
 }
 
-.email{
+.email {
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
 }
 
-input[type="email"]{
-    border: 2px solid rgba(0,0,0,0.10);
+input[type="email"] {
+    border: 2px solid rgba(0, 0, 0, 0.10);
     border-radius: 10px;
     padding: 10px 20px;
     width: 300px;
 }
 
-input[type="submit"]{
+input[type="submit"] {
     background-color: hsl(322, 100%, 66%);
     border: none;
     border-radius: 8px;
@@ -62,12 +62,12 @@ input[type="submit"]{
     cursor: pointer;
 }
 
-footer{
+footer {
     background-color: hsl(192, 100%, 9%);
-    height: auto; 
+    height: auto;
 }
 
-.cimmunication{
+.cimmunication {
     padding-top: 80px;
     width: 100%;
     display: flex;
@@ -75,17 +75,17 @@ footer{
     padding-bottom: 50px;
 }
 
-.cimmunication img{
+.cimmunication img {
     padding-left: 30px;
     width: 200px;
     height: 35px;
 }
 
-.about{
+.about {
     padding-top: 15px;
 }
 
-.about li{
+.about li {
     font-family: 'Open Sans', sans-serif;
     display: inline;
     color: white;
@@ -95,25 +95,25 @@ footer{
     font-size: 12px;
 }
 
-.social img{
+.social img {
     width: 20px;
     height: 20px;
     padding-left: 5px;
     cursor: pointer;
 }
 
-.social img:first-of-type{
+.social img:first-of-type {
     padding-left: 0;
 }
 
-.social{
+.social {
     padding-left: 30px;
     padding-bottom: 30px;
     top: 5px;
     position: relative;
 }
 
-.copy{
+.copy {
     display: flex;
     justify-content: flex-end;
     color: white;
@@ -123,11 +123,103 @@ footer{
 }
 
 a,
-a:visited{
+a:visited {
     color: white;
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
+}
+
+@media only screen and (max-width:800px) {
+    .screen {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    p:first-child {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .about li {
+        margin-right: 15px;
+    }
+
+    .copy p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    .para {
+        font-size: 15px;
+    }
+
+    .about li:nth-child(2) {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    h1:first-of-type {
+        font-size: 24px;
+    }
+
+    .para {
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .logo {
+        width: 180px
+    }
+
+    .about li:nth-child(3) {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input[type="submit"] {
+        margin-top: 20px;
+    }
+
+    .copy p {
+        font-size: 10px;
+    }
+
+    .para {
+        padding: 0 10px;
+    }
+
+    .cimmunication {
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .about {
+        padding-left: 30px;
+    }
+
+    .about li {
+        display: block;
+        margin-top: 5px;
+    }
 }
