@@ -3,5 +3,3 @@
 
 
 This was made using material provided by [Frontend Mentor](https://www.frontendmentor.io)
-
-[Check This Site](https://huddlesc.glitch.me)
